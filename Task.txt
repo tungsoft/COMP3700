@@ -1,0 +1,29 @@
+Mr. Smith is the owner of a grocery store. He has a computer and a scale. He will buy a a barcode reader. He currently manages goods in his store using Excel. Each kind of goods (e.g. bread, beef, apple...) has the following information: name, barcode number, number of available units, price per unit, provider name, and provider contact information. He currently checks out his customers' orders using a hand-held calculator and writes down the receipts manually. He inputs and updates the information of the goods in his store directly to the Excel spreadsheet. He wants you to develop a a software application for store management
+
+Here are the user stories you want to support in Iteration 1:
+
+1. As a user, I want to check out an order in store for a customer.
+2. As a user, I want to add a new product into the system.
+3. As a user, I want to update information (e.g., price, available quantity) of a current product in the system.
+
+Task: Write a detailed use case for each user story. At each step, you should provide a prototyped screen sketching how the system might look and work.
+
+This assignment is the next step of the assignment on use case analysis.  
+
+Task 1. Draw a general Data Flow Diagram and three more detailed Data Flow Diagrams (each for a use case) of the Store Management System.
+
+Task 2. Draw an Entity Relationship Diagram for the data of the Store Management System. You should identify all possible attributes and a key for each entity or relationship.
+
+Task 3. Create a sample dataset with at least five products and five orders.
+
+
+
+This assignment is the next step of the assignment on use case and data analysis.
+
+Task 1. Draw a class diagram for the Store Management System containing major classes.
+
+Task 2. Write SQL code to create a database for the Store Management System and insert the sample dataset you have prepare in the previous assignment.
+
+Task 3. Write Java code to implement the class diagram you designed in Task 1.
+
+Submit all your work (code, analysis and design documents...) to your team's Github account.
