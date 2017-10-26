@@ -85,6 +85,7 @@ public class Application {
             Class.forName("org.sqlite.JDBC");
             connection = DriverManager.getConnection("jdbc:sqlite:store.db");
             Statement stmt = connection.createStatement();
+//            stmt.execute("INSERT INTO User VALUES (0, 'admin', 'password', 'Administrator', 1)");
             if (!stmt.executeQuery("select * from product").next()) // product table do not exist
                 initializeDatabase(stmt);
 
